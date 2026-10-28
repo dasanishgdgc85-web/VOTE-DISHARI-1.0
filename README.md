@@ -1,41 +1,13 @@
-const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
+Vote Dishari 🗳️🇮🇪 (Vote Dishari - First-Time Voter Guide)
+Vote Dishari is an intuitive, user-friendly web application designed specifically for first-time voters in India. The platform simplifies the Indian Electoral System, helping new voters understand polling procedures, voter registration, EVM operation, and electoral rights in an accessible way.
 
-**Welcome to your Base44 project** 
+✨ Features
+Interactive Voter Guidance: Step-by-step walkthroughs explaining how the Indian voting process works from start to finish.
 
-**About**
+EVM Demonstration Guide: Clear explanations of Electronic Voting Machines (EVMs) and VVPAT verification.
 
-View and Edit  your app on [db.com](http://db.com) 
+Voter Registration Assistance: Essential information on EPIC (Voter ID) cards, Form 6 applications, and checking electoral roll status via the National Voters' Service Portal (NVSP) / Voter Service Portal.
 
-This project contains everything you need to run your app locally.
+First-Time Voter FAQs: Answers to common questions regarding polling booth protocols, required identity proofs, and voting day checklists.
 
-**Edit the code in your local development environment**
-
-Any change pushed to the repo will also be reflected in the Base44 Builder.
-
-**Prerequisites:** 
-
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
-
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
-
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.db.app
-```
-
-Run the app: `npm run dev`
-
-**Publish your changes**
-
-Open [db.com](http://db.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.db.com/Integrations/Using-GitHub](https://docs.db.com/Integrations/Using-GitHub)
-
-Support: [https://app.db.com/support](https://app.db.com/support)
+Responsive Modern UI: Built with a clean interface optimized for both desktop and mobile devices.
